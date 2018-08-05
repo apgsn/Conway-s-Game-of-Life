@@ -1,6 +1,7 @@
 # Conway-s-Game-of-Life
 
-Implementation of classic [Conway's game of life](https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life) on toroidal field.
+Implementation of classic [Conway's game of life](https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life) on toroidal field.  
+Dependency: [SFML](https://github.com/SFML/SFML)
 
 <img src="screen.png">
 
@@ -16,9 +17,9 @@ The initial pattern constitutes the seed. The rules continue to be applied repea
 ### Controls
 
 Mouse scroll up/down: change simulation speed, slowing it down enough will stop execution.  
-Mouse left click: activate cell  
-Mouse right click: deactivate cell  
+Mouse left click: activate selected cells  
+Mouse right click: deactivate selected cells  
 
 'E' key: empty field (no active cells)  
 'R' key: random field (random live cells)  
-'G' key: enable "God's touch" mode - on each step, a single random cell is selected and its status switched. It allows to create constantly evolving landscapes.
+'G' key: toggle "God's touch" mode - on each step, a single random cell is selected and its status switched. It allows to create constantly evolving landscapes.
